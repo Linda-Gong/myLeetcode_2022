@@ -12,7 +12,7 @@ class Solution:
         return count
 
     def dfs(self, grid, i, j):
-        if i < 0 or i > len(grid)-1 or j < 0 or j > len(grid)-1 or grid[i][j] == '0':
+        if i < 0 or i > len(grid)-1 or j < 0 or j > len(grid[0])-1 or grid[i][j] == '0':
             return
 
         grid[i][j] = '0' ## make it to sink (visited or water)

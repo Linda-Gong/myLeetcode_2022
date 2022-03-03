@@ -8,4 +8,4 @@ def merge(intervals):
         else:
             merge[-1][1] = max(merge[-1][1], item[1])
 
-    return res
+    return merge
