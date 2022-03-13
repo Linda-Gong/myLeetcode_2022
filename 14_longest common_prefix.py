@@ -22,3 +22,7 @@ class Solution:
                 return min_str[:i]
 
         return min_str
+
+
+
+
