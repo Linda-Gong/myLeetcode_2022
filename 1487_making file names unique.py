@@ -19,7 +19,7 @@ class Solution:
                 tmp = name + "(" + str(count) + ")"
                 while tmp in dic:
                     count += 1
-                    tmp = tmp = name + "(" + str(count) + ")"
+                    tmp = name + "(" + str(count) + ")"
 
                 res.append(tmp)
                 dic[tmp] = 1
